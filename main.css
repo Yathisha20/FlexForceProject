@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+}
+
+.image {
+    width: 800px;
+    height: 100vh;
+}
+
+.image1 {
+    width: 800px;
+    height: 700px;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+    margin-top: 0px;
+}
+
+.account {
+    display: flex;
+}
+
+.account-text {
+    font-family: inter;
+    vertical-align: central;
+    font-size: 14px;
+    margin-right: 2px;
+    margin-top: 17px;
+}
+
+.signIn-button {
+    border: none;
+    background-color: #f0f0f0;
+    color: #FE8E22;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 0px;
+    text-align: justify;
+}
+
+.card-body {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.join-text {
+    font-size: 18px;
+    margin-top: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.join-detail {
+    font-size: 12px;
+    color: #8692A6;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.card-container {
+    background-color: #f0f0f0;
+}
+
+.login-card-container {
+    height: 100px;
+    width: 400px;
+    background-color: rgba(254, 142, 34, 0.08);
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.login-card-container2 {
+    height: 100px;
+    width: 400px;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+.link-center {
+    text-align: center;
+    padding: 40px;
+}
+
+.user-login-image {
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.user-text {
+    text-align: left;
+    font-size: 18px;
+}
+
+.user-join {
+    font-size: 14px;
+    padding: 0px;
+}
+
+.Register-card-container {
+    height: 100px;
+    width: 400px;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.form-control {
+    width: 400px;
+    height: 48px;
+}
+
+.button {
+    width: 400px;
+    height: 48px;
+    background: #FE8E22F2;
+    border: none;
+}
+
+.error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.container1 {
+    display: flex;
+    height: 100%;
+}
+
+.nav-items {
+    margin-left: 10px;
+}
+
+.icon {
+    padding-left: 20px;
+}
+
+.icon1 {
+    padding-left: 15px;
+}
+
+.icon2 {
+    padding-left: 30px;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 230px;
+    padding: 10px;
+}
+
+.dashboard {
+    display: flex;
+}
+
+.side-bar-title {
+    font-family: "Roboto";
+    font-size: 26px;
+    padding-left: 16px;
+}
+
+.option-container {
+    flex-grow: 1;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+}
+
+.option-icon {
+    font-size: 16px;
+}
+
+.active-option {
+    background: #FE8E22;
+    border-radius: 4px;
+}
+
+.option-text {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+.Premium-button {
+    background-color: #FE8E22;
+    border: none;
+    border-radius: 10px;
+    height: 70px;
+}
+
+.content {
+    flex-grow: 1;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.bg-container {
+    height: 100vh;
+    display: flex;
+}
+
+.bg-image-main {
+    background-image: url('https://res.cloudinary.com/dbxhjmb9o/image/upload/v1626955121/image_25_ew5wze.png');
+    height: 200px;
+}
+
+.cam {
+    text-align: right;
+    padding-top: 180px;
+    margin-left: -20px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.profile-image {
+    padding-top: 146px;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.profile-section {
+    display: flex;
+}
+
+.edit-icon {
+    font-size: 40px;
+    color: #FE8E22;
+    padding: 20px;
+}
+
+.more-btn {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    width: 75px;
+    height: 50px;
+}
+
+.dropdown {
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+.add-profile {
+    background-color: #FE8E22;
+    height: 40px;
+    margin-left: 40px;
+}
+
+.details {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.name {
+    font-size: 12px;
+}
+
+.designation {
+    font-size: 12px;
+}
+
+.location {
+    font-size: 12px;
+}
+
+.connection {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.016em;
+    text-align: left;
+    color: #FE8E22;
+}
+
+.connect {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #FE8E22;
+
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+}
+
+.text-about {
+    display: flex;
+    flex-direction: row;
+}
+
+.edit-icon-flex {
+    margin-left: auto;
+    font-size: 30px;
+    color: #FE8E22;
+}
+
+.about-text {
+    font-size: 18px;
+}
+
+.about-detail {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.card {
+    margin-top: 10px;
+    display: flex;
+}
+
+.exp-flex {
+    display: flex;
+}
+
+.tesla-logo {
+    text-align: center;
+    margin-top: 30px;
+    height: 100px;
+}
+
+.exp-text {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.tesla-desig {
+    font-size: 18px;
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.tesla {
+    font-size: 14px;
+}
+
+.main-home {
+    display: flex;
+}
+
+.section-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-profile {
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    width: 313px;
+    left: 1112px;
+    top: 127px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.pro {
+    display: flex;
+}
+
+.card-profile-text {
+    font-size: 12px;
+}
+
+.circle-icon {
+    margin-left: 50px;
+}
+
+.num-text {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.premium {
+    color: #FE8E22;
+}
+
+.view-flex {
+    display: flex;
+}
+
+.pro-image {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.view-name {
+    font-size: 12px;
+}
+
+.view-desig {
+    font-size: 12px;
+}
+
+.img-view {
+    margin-top: 15px;
+}
+
+.img {
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.view-text {
+    font-size: 12px;
+}
+
+.people-viewed {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+}
+
+.learning-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.learn-linked {
+    display: flex;
+}
+
+.linked-logo {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.text-learn {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.add-skill-text {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.video-learning {
+    display: flex;
+}
+
+.embed-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.embed-text {
+    font-size: 10px;
+}
+
+.embed-view {
+    font-size: 8px;
+    margin-bottom: auto;
+}
